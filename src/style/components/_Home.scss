@@ -1,0 +1,247 @@
+@import '../abstract/variaveis';
+
+body{
+    background-image: url("../imgs/bola-LogoCompasso.svg");
+    background-size: 28%;
+    background-position-y: 210px;
+    background-repeat: no-repeat;
+
+}
+
+
+//HEADER
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding: 25px 40px 0px 40px;
+
+    .icon-compass{
+       align-self: flex-start;
+
+    }
+
+    .header-time{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .hours{
+            display: flex;
+            
+        }
+
+        .actual-time{
+            font-size: 144px;
+            font-weight: bold;
+            color: $cor-4;
+        }
+
+        p{
+            font-size: 144px;
+
+        }
+        
+        .actual-day{
+            font-size: 14px;
+        }
+    }
+
+    .weather-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .container-city{
+            display: flex;
+            justify-content: space-evenly;
+            width: 150px;
+                    .city-name{
+                        color: $cor-4;
+                    }
+        }
+        
+        .temp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .actual-temp{
+                font-size: 48px;
+                font-weight: bold;
+                margin-left: 10px;
+
+            }
+
+
+        }
+
+    }
+
+    
+}
+
+//MAIN
+.main-container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 130px;
+
+    h1{
+        color: $cor-5;
+        font-size: 64px;
+        line-height: 81px;
+        font-weight: bold;
+    }
+    
+    h2{
+        font-size: 36px;
+        color: $cor-5;
+        line-height: 45px;
+        font-weight: bold;
+
+    }
+
+    h3{
+        font-size: 24px;
+        line-height: 30px;
+        color: $cor-4;
+
+    }
+    
+
+}
+
+//FOOTER
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10vh;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+
+
+    .container-1f{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+
+        h3{
+           display: flex;
+           align-items: center;
+           font-size: 12px;
+           width: 600px;
+           color: $cor-1;
+           height: 60px;
+           text-align: right;
+
+           &::after{
+                content: '';
+                display: block;
+                height: 60px;
+                padding-right: 35px;
+                border-right: 1px solid $cor-1;
+           }
+
+
+        }
+
+    }
+
+    .container-2f{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .refresh-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+        .refresh{
+            color: $cor-1;
+            width: 110px;
+            margin-left: 120px;
+            margin-right: 35px;
+            text-align: right;
+
+
+        }
+
+        .countdown{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .timer{
+                color: $cor-1;
+                font-size: 48px;
+                font-weight: bold;
+
+            }
+
+            p{
+                color: $cor-1;
+
+            }
+
+        }
+
+        .what-do{
+            display: flex;
+
+            .a-keep{
+                color: $cor-5;
+                &:hover{
+                   text-decoration: none;
+
+                }
+                
+            }
+
+            .a-logout{
+                color: #ffffff;
+                &:hover{
+                   text-decoration: none;
+
+                }
+            }
+
+            .keep-navigate{
+                display: flex;
+                align-items: center;
+                text-align: center;
+                width: 130px;
+                min-height: 95px;
+                background-color: #ffffff;
+                color: $cor-5;
+                font-size: 12px;
+                line-height: 15px;
+
+
+            }
+
+            .logout{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 130px;
+                height: content;
+                font-size: 12px;
+                color: $cor-1;
+                
+
+            }
+        }
+
+
+
+
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Compass - Home</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/style/reset.css">
+        <link rel="stylesheet" href="src/style/style.css">
+
+    </head>
+
+    <body>
+        <header class="header-container">
+            <img class="icon-compass" src="src/imgs/LogoCompassoHome.svg" alt="">
+            <div class="header-time">
+                <div class="hours">
+                    <h1 id="hours" class="actual-time">00</h1>
+                    <p>:</p>
+                    <h1 id="min" class="actual-time">00</h1>
+                </div>
+                <h3 id="day" class="actual-day">segunda-feira, 01 janeiro de 1800</h3>
+            </div>
+            <div class="weather-container">
+                <div class="container-city">
+                    <h2 class="city-name">Salvador </h2>
+                    <p> - </p>
+                    <h2 class="state-code"> BA</h2>
+                </div>
+                <div class="temp"> 
+                    <span> <img class="icon-temp" src="src/imgs/iconWeather.svg" alt=""></span>
+                    <h1 class="actual-temp">22°</h1>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="main-container">
+                <h2>Our mission is</h2>
+                <h3>Nossa missão é</h3>
+                <h1>to transform the world</h1>
+                <h3>transformar o mundo</h3>
+                <h1>building digital experiences</h1>
+                <h3>construindo experiências digitais</h3>
+                <h1>that enable our client’s growth</h1>
+                <h3>que permitam o crescimento dos nossos clientes</h3>
+            </section>
+        </main>
+        <footer class="footer-container">
+            <div class="container-1f">
+                <h3>Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</h3>
+            </div>
+            <div class="container-2f">
+                <div class="refresh-container">
+                    <h2 class="refresh">Application refresh in</h2>
+                    <div class="countdown">
+                        <h1 class="timer">600</h1>
+                        <p>seconds</p>
+                    </div>
+                </div>
+                <div class="what-do">
+                    <h2 class="keep-navigate"><a  href="https://noticias.uol.com.br" class="a-keep">Continuar navegando</a></h2>
+                    <h2 class="logout"><a href="#" class="a-logout">Logout</a></h2>
+                </div>
+            </div>
+
+        </footer>
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/clock.js"></script>
+        <script src="scripts/countdown.js"></script>
+
+        <!-- Bootstrap script -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    </body>
+
+</html>

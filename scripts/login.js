@@ -5,6 +5,16 @@ var error = document.getElementById("error-msg");
 var iconUser = document.querySelector(".icon-user");
 var iconPass = document.querySelector(".icon-pass");
 
+//localStorage Inicio
+
+if(localStorage.getItem('user')){
+    var storage = JSON.parse(localStorage.getItem('user'))
+}else{
+    localStorage.setItem('user', JSON.stringify([]));
+    var storage = JSON.parse(localStorage.getItem('user'))
+ }
+
+//localStorage Fim
 
 buttonContinue.addEventListener('click', (e) => {
     
@@ -26,11 +36,12 @@ buttonContinue.addEventListener('click', (e) => {
         password.value = '';
 
         
-    }else{
-        console.log(info.userName);
-        console.log(info.userPass);
     }
-    
+    else{
+        localStorage.setItem('user', JSON.stringify([...storage, info]));
+        storage = JSON.parse(localStorage.getItem('user'));
+        window.location.replace('home.html')
+    }
     
     
 })
