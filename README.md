@@ -60,7 +60,7 @@
 ## Authors
 
 ** Deivisson Reis **
-  Conect me in linkedin!
+  Connect me in linkedin!
   thanks for you visit!
 
 - UX/UI : Compass.UOL
