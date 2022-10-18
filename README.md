@@ -2,9 +2,9 @@
 ![Project logo](https://github.com/deivissonnreis/Login-Compass/blob/main/src/imgs/Logo-Compasso.svg)
 
 ## Developed
-Login form and a home page.
-developed for compass.uol.
-hope you enjoy the project and learn something with it!
+- Login form and a home page.
+- developed for compass.uol.
+- hope you enjoy the project and learn something with it!
 
 ## Technology
    * HTML 5.1
