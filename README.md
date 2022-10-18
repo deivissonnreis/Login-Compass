@@ -7,13 +7,13 @@
 - hope you enjoy the project and learn something with it!
 
 ## Technology
-   * HTML 5.1
-    * CSS 3
-     * SASS
-      * Bootstrap 
-       * Javascript
-        * API 
-         * git 
+* HTML 5.1
+* CSS 3
+* SASS
+* Bootstrap 
+* Javascript
+* API 
+* git 
 
 ## Getting Started! 
 
